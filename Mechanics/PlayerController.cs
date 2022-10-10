@@ -18,14 +18,11 @@ namespace Platformer.Mechanics
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
 
-        /// <summary>
-        /// Max horizontal speed of the player.
-        /// </summary>
-        public float maxSpeed = 7;
-        /// <summary>
-        /// Initial jump velocity at the start of a jump.
-        /// </summary>
-        public float jumpTakeOffSpeed = 7;
+        [Tooltip("Max horizontal speed of the player.")]
+        public float maxSpeed = 7; // old value: 7;
+        
+        [Tooltip("Initial jump velocity at the start of a jump.")]
+        public float jumpTakeOffSpeed = 7; // old value: 7;
 
         public JumpState jumpState = JumpState.Grounded;
         private bool stopJump;
