@@ -1,2 +1,2 @@
 # Platformer
-A 2D platformer made in Unity Game Engine and written in over 2000+ lines of pure C# code
+Plaformer is a 2D platformer written in over 2000 lines of pure C# code in the Unity Game Engine.
