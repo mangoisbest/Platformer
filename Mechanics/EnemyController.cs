@@ -13,7 +13,7 @@ namespace Platformer.Mechanics
     public class EnemyController : MonoBehaviour
     {
         public PatrolPath path;
-        public AudioClip ouch;
+        public AudioClip deathSFX;
 
         internal PatrolPath.Mover mover;
         internal AnimationController control;
