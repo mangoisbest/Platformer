@@ -4,9 +4,8 @@ using UnityEngine;
 
 namespace Platformer.UI
 {
-    /// <summary>
+    
     /// A simple controller for switching between UI panels.
-    /// </summary>
     public class MainUIController : MonoBehaviour
     {
         public GameObject[] panels;

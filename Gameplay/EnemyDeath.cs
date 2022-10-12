@@ -4,7 +4,7 @@ using Platformer.Mechanics;
 namespace Platformer.Gameplay
 {
     
-    // Fired when the health component on an enemy has a hitpoint value of  0.
+    //INFO: Fired when the health component on an enemy has a hitpoint value of  0.
     public class EnemyDeath : Simulation.Event<EnemyDeath>
     {
         public EnemyController enemy;
